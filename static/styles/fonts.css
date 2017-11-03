@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Helvetica Neue eText';
+    src: url('../fonts/HelveticaNeueeTextW01-Lt.eot');
+    src: url('../fonts/HelveticaNeueeTextW01-Lt.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueeTextW01-Lt.woff') format('woff'), url('../fonts/HelveticaNeueeTextW01-Lt.ttf') format('truetype'), url('../fonts/HelveticaNeueeTextW01-Lt.svg#HelveticaNeueeTextW01-Lt') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue eText';
+    src: url('../fonts/HelveticaNeueeTextW01-Md.eot');
+    src: url('../fonts/HelveticaNeueeTextW01-Md.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueeTextW01-Md.woff') format('woff'), url('../fonts/HelveticaNeueeTextW01-Md.ttf') format('truetype'), url('../fonts/HelveticaNeueeTextW01-Md.svg#HelveticaNeueeTextW01-Md') format('svg');
+    font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue eText Pro';
+    src: url('../fonts/HelveticaNeueeTextPro-Light.eot');
+    src: url('../fonts/HelveticaNeueeTextPro-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueeTextPro-Light.woff') format('woff'), url('../fonts/HelveticaNeueeTextPro-Light.ttf') format('truetype'), url('../fonts/HelveticaNeueeTextPro-Light.svg#HelveticaNeueeTextPro-Light') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue eText Pro';
+    src: url('../fonts/HelveticaNeueeTextPro-Md.eot');
+    src: url('../fonts/HelveticaNeueeTextPro-Md.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueeTextPro-Md.woff') format('woff'), url('../fonts/HelveticaNeueeTextPro-Md.ttf') format('truetype'), url('../fonts/HelveticaNeueeTextPro-Md.svg#HelveticaNeueeTextPro-Md') format('svg');
+    font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABBVoice';
+    src: url('../fonts/ABBvoice_W_Lt.eot');
+    src: url('../fonts/ABBvoice_W_Lt.eot?#iefix') format('embedded-opentype'), url('../fonts/ABBvoice_W_Lt.woff') format('woff'), url('../fonts/ABBvoice_W_Lt.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABBVoice';
+    src: url('../fonts/ABBvoice_W_Md.eot');
+    src: url('../fonts/ABBvoice_W_Md.eot?#iefix') format('embedded-opentype'), url('../fonts/ABBvoice_W_Md.woff') format('woff'), url('../fonts/ABBvoice_W_Md.ttf') format('truetype');
+    font-weight: bold;
+	font-style: normal;
+}

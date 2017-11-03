@@ -1,0 +1,672 @@
+@font-face {
+  font-family: 'Icons';
+  src:  url('../fonts/Icons.eot?7s89te');
+  src:  url('../fonts/Icons.eot?7s89te#iefix') format('embedded-opentype'),
+    url('../fonts/Icons.ttf?7s89te') format('truetype'),
+    url('../fonts/Icons.woff?7s89te') format('woff'),
+    url('../fonts/Icons.svg?7s89te#AHCicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: Icons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Power_20:before {
+  content: "\e900";
+}
+.icon-Info_20:before {
+  content: "\e901";
+}
+.icon-Decreased_20:before {
+  content: "\e902";
+}
+.icon-question_mark:before {
+  content: "\e903";
+}
+.icon-MixedArrows_20:before {
+  content: "\e904";
+}
+.icon-File_20:before {
+  content: "\e905";
+}
+.icon-Download_20:before {
+  content: "\e906";
+}
+.icon-Plus_20:before {
+  content: "\e907";
+}
+.icon-Increased_20:before {
+  content: "\e908";
+}
+.icon-Clip_20:before {
+  content: "\e909";
+}
+.icon-Comment_20:before {
+  content: "\e90a";
+}
+.icon-Linechart_20:before {
+  content: "\e90b";
+}
+.icon-Folder_20:before {
+  content: "\e90c";
+}
+.icon-Open_Folder_20:before {
+  content: "\e90d";
+}
+.icon-Calendar_20 .path1:before {
+  content: "\e90e";
+  color: rgb(70, 70, 70);
+}
+.icon-Calendar_20 .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(247, 247, 247);
+}
+.icon-Calendar_20 .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(70, 70, 70);
+}
+.icon-Calendar_20 .path4:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Calendar_20 .path5:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Calendar_20 .path6:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Calendar_20 .path7:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Calendar_20 .path8:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Calendar_20 .path9:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Settings_20:before {
+  content: "\e917";
+}
+.icon-Search_20:before {
+  content: "\e918";
+}
+.icon-Edit_20:before {
+  content: "\e919";
+}
+.icon-User_20:before {
+  content: "\e91a";
+}
+.icon-Import_20:before {
+  content: "\e91b";
+}
+.icon-Export_20:before {
+  content: "\e91c";
+}
+.icon-Upload_20:before {
+  content: "\e91d";
+}
+.icon-Menu_20:before {
+  content: "\e91e";
+}
+.icon-ArrowUp_20:before {
+  content: "\e91f";
+}
+.icon-Back_20:before {
+  content: "\e920";
+}
+.icon-Delete_20:before {
+  content: "\e921";
+}
+.icon-Save_20:before {
+  content: "\e922";
+}
+.icon-Envelope_20:before {
+  content: "\e923";
+}
+.icon-Trash_20:before {
+  content: "\e924";
+}
+.icon-PowerBiGrid:before {
+  content: "\e925";
+  color: #f1f1f1;
+}
+.icon-PowerBiLogo:before {
+  content: "\e926";
+  color: #f1f1f1;
+}
+.icon-Checked:before {
+  content: "\e927";
+}
+.icon-Exclamation-Mark:before {
+  content: "\e928";
+}
+.icon-Collapse_20:before {
+  content: "\e929";
+}
+.icon-Expand_20:before {
+  content: "\e92a";
+}
+.icon-UI_Drive_20:before {
+  content: "\e92b";
+}
+.icon-UI_Key_20:before {
+  content: "\e92c";
+}
+.icon-UI_MotorVoltage_20:before {
+  content: "\e92d";
+}
+.icon-UI_PowerOnOff_20:before {
+  content: "\e92e";
+}
+.icon-UI_AlignVerticalCenter_20:before {
+  content: "\e92f";
+}
+.icon-UI_BatteryCharging_20:before {
+  content: "\e930";
+}
+.icon-UI_BatteryEmpty_20:before {
+  content: "\e931";
+}
+.icon-UI_BatteryFull_20:before {
+  content: "\e932";
+}
+.icon-UI_BatteryHalf_20:before {
+  content: "\e933";
+}
+.icon-UI_BatteryHigh_20:before {
+  content: "\e934";
+}
+.icon-UI_BatteryLow_20:before {
+  content: "\e935";
+}
+.icon-UI_BinaryData_20:before {
+  content: "\e936";
+}
+.icon-UI_Bluetooth_20:before {
+  content: "\e937";
+}
+.icon-UI_BringToFront_20:before {
+  content: "\e938";
+}
+.icon-UI_Broadcast_20:before {
+  content: "\e939";
+}
+.icon-UI_Calculator_20:before {
+  content: "\e93a";
+}
+.icon-UI_Cart_20:before {
+  content: "\e93b";
+}
+.icon-UI_Charging_20:before {
+  content: "\e93c";
+}
+.icon-UI_Chat2_20:before {
+  content: "\e93d";
+}
+.icon-UI_Comment1_20:before {
+  content: "\e93e";
+}
+.icon-UI_Comment2_20:before {
+  content: "\e93f";
+}
+.icon-UI_Dashboard1_20:before {
+  content: "\e940";
+}
+.icon-UI_Dashboard2_20:before {
+  content: "\e941";
+}
+.icon-UI_Database_20:before {
+  content: "\e942";
+}
+.icon-UI_DatabaseNew_20:before {
+  content: "\e943";
+}
+.icon-UI_Devices_20:before {
+  content: "\e944";
+}
+.icon-UI_Distribution_20:before {
+  content: "\e945";
+}
+.icon-UI_DoubleDown_20:before {
+  content: "\e946";
+}
+.icon-UI_DoubleLeft_20:before {
+  content: "\e947";
+}
+.icon-UI_DoubleRight_20:before {
+  content: "\e948";
+}
+.icon-UI_DoubleUp_20:before {
+  content: "\e949";
+}
+.icon-UI_Gauge1_20:before {
+  content: "\e94a";
+}
+.icon-UI_Gauge2_20:before {
+  content: "\e94b";
+}
+.icon-UI_Home_20:before {
+  content: "\e94c";
+}
+.icon-UI_Image_20:before {
+  content: "\e94d";
+}
+.icon-UI_LightBulb_20:before {
+  content: "\e94e";
+}
+.icon-UI_LogIn_20:before {
+  content: "\e94f";
+}
+.icon-UI_LogOut_20:before {
+  content: "\e950";
+}
+.icon-UI_Magnet_20:before {
+  content: "\e951";
+}
+.icon-UI_MakeSameHeight_20:before {
+  content: "\e952";
+}
+.icon-UI_MakeSameSize_20:before {
+  content: "\e953";
+}
+.icon-UI_MakeSameWidth_20:before {
+  content: "\e954";
+}
+.icon-UI_Map_20:before {
+  content: "\e955";
+}
+.icon-UI_Maximize_20:before {
+  content: "\e956";
+}
+.icon-UI_Microphone_20:before {
+  content: "\e957";
+}
+.icon-UI_MicrophoneOff_20:before {
+  content: "\e958";
+}
+.icon-UI_Minimize_20:before {
+  content: "\e959";
+}
+.icon-UI_Network_20:before {
+  content: "\e95a";
+}
+.icon-UI_PaperClip_20:before {
+  content: "\e95b";
+}
+.icon-UI_PopOutWindow_20:before {
+  content: "\e95c";
+}
+.icon-UI_Resistor_20:before {
+  content: "\e95d";
+}
+.icon-UI_SendToBack_20:before {
+  content: "\e95e";
+}
+.icon-UI_Server_20:before {
+  content: "\e95f";
+}
+.icon-UI_Shortcut_20:before {
+  content: "\e960";
+}
+.icon-UI_SLD1_20:before {
+  content: "\e961";
+}
+.icon-UI_SLD2_20:before {
+  content: "\e962";
+}
+.icon-UI_Synchronize_20:before {
+  content: "\e963";
+}
+.icon-UI_Test_20:before {
+  content: "\e964";
+}
+.icon-UI_TreeView_20:before {
+  content: "\e965";
+}
+.icon-UI_Trend2_20:before {
+  content: "\e966";
+}
+.icon-UI_USB_20:before {
+  content: "\e967";
+}
+.icon-UI_Voltage_20:before {
+  content: "\e968";
+}
+.icon-UI_Briefcase_20:before {
+  content: "\e969";
+}
+.icon-UI_CertificateDocument1_20:before {
+  content: "\e96a";
+}
+.icon-UI_CertificateDocument2_20:before {
+  content: "\e96b";
+}
+.icon-UI_Filter_20:before {
+  content: "\e96c";
+}
+.icon-UI_FolderNew_20:before {
+  content: "\e96d";
+}
+.icon-UI_Hourglass_20:before {
+  content: "\e96e";
+}
+.icon-UI_Label_20:before {
+  content: "\e96f";
+}
+.icon-UI_Location2_20:before {
+  content: "\e970";
+}
+.icon-UI_Minus_20:before {
+  content: "\e971";
+}
+.icon-UI_MinusInCircle_20:before {
+  content: "\e972";
+}
+.icon-UI_Pin_20:before {
+  content: "\e973";
+}
+.icon-UI_Plugin_20:before {
+  content: "\e974";
+}
+.icon-UI_PlusInCircle_20:before {
+  content: "\e975";
+}
+.icon-UI_Share_20:before {
+  content: "\e976";
+}
+.icon-UI_Star_20:before {
+  content: "\e977";
+}
+.icon-UI_Template_20:before {
+  content: "\e978";
+}
+.icon-UI_TemplateNew_20:before {
+  content: "\e979";
+}
+.icon-UI_Unpin_20:before {
+  content: "\e97a";
+}
+.icon-UI_AlignBottom_20:before {
+  content: "\e97b";
+}
+.icon-UI_AlignHorizontalCenter_20:before {
+  content: "\e97c";
+}
+.icon-UI_AlignRight_20:before {
+  content: "\e97d";
+}
+.icon-UI_AlignTop_20:before {
+  content: "\e97e";
+}
+.icon-UI_BarChart_20:before {
+  content: "\e97f";
+}
+.icon-UI_Camera_20:before {
+  content: "\e980";
+}
+.icon-UI_ControlsAndSettings_20:before {
+  content: "\e981";
+}
+.icon-UI_Fullscreen_20:before {
+  content: "\e982";
+}
+.icon-UI_Link_20:before {
+  content: "\e983";
+}
+.icon-UI_List_20:before {
+  content: "\e984";
+}
+.icon-UI_Numericals_20:before {
+  content: "\e985";
+}
+.icon-UI_OpenInNewWindow_20:before {
+  content: "\e986";
+}
+.icon-UI_PieChart_20:before {
+  content: "\e987";
+}
+.icon-UI_Table_20:before {
+  content: "\e988";
+}
+.icon-UI_Wrench_20:before {
+  content: "\e989";
+}
+.icon-UI_ZoomIn_20:before {
+  content: "\e98a";
+}
+.icon-UI_ZoomOut_20:before {
+  content: "\e98b";
+}
+.icon-UI_AlignLeft_20:before {
+  content: "\e98c";
+}
+.icon-UI_Call_20:before {
+  content: "\e98d";
+}
+.icon-UI_Chat1_20:before {
+  content: "\e98e";
+}
+.icon-UI_Computer_20:before {
+  content: "\e98f";
+}
+.icon-UI_Copy_20:before {
+  content: "\e990";
+}
+.icon-UI_Cut_20:before {
+  content: "\e991";
+}
+.icon-UI_Down_20:before {
+  content: "\e992";
+}
+.icon-UI_DownArrow_20:before {
+  content: "\e993";
+}
+.icon-UI_EndCall_20:before {
+  content: "\e994";
+}
+.icon-UI_Envelope_20:before {
+  content: "\e995";
+}
+.icon-UI_Export_20:before {
+  content: "\e996";
+}
+.icon-UI_GeographicLocation_20:before {
+  content: "\e997";
+}
+.icon-UI_Globe_20:before {
+  content: "\e998";
+}
+.icon-UI_Hide_20:before {
+  content: "\e999";
+}
+.icon-UI_Left_20:before {
+  content: "\e99a";
+}
+.icon-UI_LeftArrow_20:before {
+  content: "\e99b";
+}
+.icon-UI_LockClosed_20:before {
+  content: "\e99c";
+}
+.icon-UI_LockOpen_20:before {
+  content: "\e99d";
+}
+.icon-UI_MenuNarrow_20:before {
+  content: "\e99e";
+}
+.icon-UI_More_20:before {
+  content: "\e99f";
+}
+.icon-UI_Motor_20:before {
+  content: "\e9a0";
+}
+.icon-UI_Panel_20:before {
+  content: "\e9a1";
+}
+.icon-UI_Paste_20:before {
+  content: "\e9a2";
+}
+.icon-UI_Plant_20:before {
+  content: "\e9a3";
+}
+.icon-UI_Print_20:before {
+  content: "\e9a4";
+}
+.icon-UI_Redo_20:before {
+  content: "\e9a5";
+}
+.icon-UI_Refresh_20:before {
+  content: "\e9a6";
+}
+.icon-UI_Right_20:before {
+  content: "\e9a7";
+}
+.icon-UI_RightArrow_20:before {
+  content: "\e9a8";
+}
+.icon-UI_SaveAs_20:before {
+  content: "\e9a9";
+}
+.icon-UI_Screen_20:before {
+  content: "\e9aa";
+}
+.icon-UI_Smartphone_20:before {
+  content: "\e9ab";
+}
+.icon-UI_System_20:before {
+  content: "\e9ac";
+}
+.icon-UI_Undo_20:before {
+  content: "\e9ad";
+}
+.icon-UI_Up_20:before {
+  content: "\e9ae";
+}
+.icon-UI_View_20:before {
+  content: "\e9af";
+}
+.icon-UI_AddUser_20:before {
+  content: "\e9b0";
+}
+.icon-UI_AlarmBell_20:before {
+  content: "\e9b1";
+}
+.icon-UI_AnalyzeDocument_20:before {
+  content: "\e9b2";
+}
+.icon-UI_AudioOff_20:before {
+  content: "\e9b3";
+}
+.icon-UI_AudioOn_20:before {
+  content: "\e9b4";
+}
+.icon-UI_Calendar_20:before {
+  content: "\e9b5";
+}
+.icon-UI_CheckMarkCircle1_20:before {
+  content: "\e9b6";
+}
+.icon-UI_CheckMarkCircle2_20:before {
+  content: "\e9b7";
+}
+.icon-UI_Document_20:before {
+  content: "\e9b8";
+}
+.icon-UI_ErrorCircle1_20:before {
+  content: "\e9b9";
+}
+.icon-UI_ErrorCircle2_20:before {
+  content: "\e9ba";
+}
+.icon-UI_Event_20:before {
+  content: "\e9bb";
+}
+.icon-UI_Forward_20:before {
+  content: "\e9bc";
+}
+.icon-UI_Group_20:before {
+  content: "\e9bd";
+}
+.icon-UI_HelpCircle1_20:before {
+  content: "\e9be";
+}
+.icon-UI_HelpCircle2_20:before {
+  content: "\e9bf";
+}
+.icon-UI_History_20:before {
+  content: "\e9c0";
+}
+.icon-UI_InformationCircle1_20:before {
+  content: "\e9c1";
+}
+.icon-UI_InformationCircle2_20:before {
+  content: "\e9c2";
+}
+.icon-UI_Location1_20:before {
+  content: "\e9c3";
+}
+.icon-UI_NewDocument_20:before {
+  content: "\e9c4";
+}
+.icon-UI_Pause_20:before {
+  content: "\e9c5";
+}
+.icon-UI_Play_20:before {
+  content: "\e9c6";
+}
+.icon-UI_Reports_20:before {
+  content: "\e9c7";
+}
+.icon-UI_Rewind_20:before {
+  content: "\e9c8";
+}
+.icon-UI_SkipToEnd_20:before {
+  content: "\e9c9";
+}
+.icon-UI_SkipToStart_20:before {
+  content: "\e9ca";
+}
+.icon-UI_Stop_20:before {
+  content: "\e9cb";
+}
+.icon-UI_Time_20:before {
+  content: "\e9cc";
+}
+.icon-UI_UserInCircle_20:before {
+  content: "\e9cd";
+}
+.icon-UI_WarningCircle1_20:before {
+  content: "\e9ce";
+}
+.icon-UI_WarningCircle2_20:before {
+  content: "\e9cf";
+}
+.icon-UI_WarningTriangle_20:before {
+  content: "\e9d0";
+}

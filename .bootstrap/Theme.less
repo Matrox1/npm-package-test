@@ -1,0 +1,181 @@
+@import (reference) "Variables.less";
+
+body {
+    background-color: @body-bg;
+    color: @gray-darker;
+    font-family: @font-family-sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: @navbar-height;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/** ------------ Alerts ----------- **/
+
+.alert {
+    border-color: transparent;
+    font-weight: bold;
+}
+
+/** ---------- Breadcrumb --------- **/
+
+.breadcrumb {
+    font-size: @font-size-small;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0;
+
+    > li + li:before {
+        padding-right: 0;
+    }
+}
+
+/** ----------- Buttons ----------- **/
+
+@theme-btn-outline-color: @brand-primary;
+@theme-btn-default-bg-selected: darken(@btn-default-bg, 10%);
+@theme-btn-default-border: lighten(@btn-default-border, 20%);
+@theme-btn-default-border-hover: lighten(@btn-default-border, 10%);
+@theme-btn-default-border-selected: lighten(@btn-default-border, 10%);
+@theme-btn-primary-bg-selected: darken(@btn-primary-bg, 10%);
+@theme-btn-primary-border: lighten(@btn-primary-border, 20%);
+@theme-btn-primary-border-hover: @btn-primary-border;
+@theme-btn-primary-border-selected: lighten(@btn-primary-border, 10%);
+
+.btn {
+    font-size: @font-size-small;
+}
+
+.btn-default {
+    border-top: solid @theme-btn-default-border 1px;
+    border-left: solid @theme-btn-default-border 1px;
+    border-right: solid @theme-btn-default-border 1px;
+}
+
+.btn-primary {
+    border-top: solid @theme-btn-primary-border 1px;
+    border-left: solid @theme-btn-primary-border 1px;
+    border-right: solid @theme-btn-primary-border 1px;
+}
+
+.btn-default:active,
+.btn-default.active {
+    background-color: @btn-default-bg;
+}
+
+.btn-default.selected {
+    background-color: @theme-btn-default-bg-selected;
+    border-color: @theme-btn-default-border-selected;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background-color: @btn-primary-bg;
+}
+
+.btn-primary.selected {
+    background-color: @theme-btn-primary-bg-selected;
+    border-color: @theme-btn-primary-border-selected;
+}
+
+.btn-default:focus,
+.btn-primary:focus,
+.btn-success:focus,
+.btn-info:focus,
+.btn-warning:focus,
+.btn-danger:focus {
+    outline: solid;
+    outline-color: @theme-btn-outline-color;
+    outline-width: 2px;
+}
+
+.btn-default:focus {
+    background-color: @btn-default-bg;
+}
+
+.btn-default.selected:focus {
+    background-color: @theme-btn-default-bg-selected;
+}
+
+.btn-primary:focus {
+    background-color: @btn-primary-bg;
+}
+
+.btn-primary.selected:focus {
+    background-color: @theme-btn-primary-bg-selected;
+}
+
+.btn-default:hover {
+    background-color: @btn-default-bg;
+    border-top: solid @theme-btn-default-border-hover 1px;
+    border-left: solid @theme-btn-default-border-hover 1px;
+    border-right: solid @theme-btn-default-border-hover 1px;
+}
+
+.btn-default.selected:hover {
+    background-color: @theme-btn-default-bg-selected;
+}
+
+.btn-primary:hover {
+    background-color: @btn-primary-bg;
+    border-top: solid @theme-btn-primary-border-hover 1px;
+    border-left: solid @theme-btn-primary-border-hover 1px;
+    border-right: solid @theme-btn-primary-border-hover 1px;
+}
+
+.btn-primary.selected:hover {
+    background-color: @theme-btn-primary-bg-selected;
+}
+
+/** ----------- Navbar ------------ **/
+
+@theme-navbar-border-top-size: 5px;
+@theme-navbar-border-bottom-size: 3px;
+@theme-navbar-nav-item-height: @navbar-height - @theme-navbar-border-top-size;
+@theme-navbar-nav-item-hover-border-color: @brand-primary;
+
+.navbar {
+    margin-bottom: 0;
+
+    .navbar-brand {
+        cursor: pointer;
+    }
+
+    .nav {
+        .nav-item {
+            border-left: solid 1px black;
+            border-right: solid 1px black;
+            margin-left: -1px;
+
+            .nav-link {
+                cursor: pointer;
+                border-top: solid @theme-navbar-border-top-size transparent;
+                display: flex; align-items: center; justify-content: center;
+                height: @navbar-height;
+                text-align: center;
+                width: 120px;
+
+                &:hover {
+                    border-top-color: @theme-navbar-nav-item-hover-border-color;
+                }
+
+                &[class*="active"] {
+                    border-top-color: @theme-navbar-nav-item-hover-border-color;
+                }
+            }
+        }
+    }
+}
+
+/** ----------- Progress ---------- **/
+
+.progress {
+    box-shadow: none;
+    margin-bottom: 0;
+
+    .progress-bar {
+        box-shadow: none;
+    }
+}

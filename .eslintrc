@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "jest/globals": true,
+        "browser": true
+    },
+    "extends": [
+        "plugin:jest/recommended",
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "jest",
+        "html"
+    ],
+    "rules": {}
+}

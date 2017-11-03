@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+}
+
+.container-height {
+    height: 100%;
+}
+
+.body {
+    font: "Helvetica Neue eText Pro";
+    font-family: "Helvetica Neue eText Pro Light";
+    font-size: 12px;
+}
+
+.body-content {
+    margin-left: 10rem;
+    margin-top: 0rem;
+    height: 100%;
+    width: 100%;
+    transition: margin-left 0.3s linear;
+    -moz-transition: margin-left 0.3s linear;
+    -webkit-transition: margin-left 0.3s linear;
+    position: absolute;
+}
+
+.lp-wrapper {
+    position: absolute;
+    left: 0rem;
+    width: 10rem;
+    height: 100%;
+    background-color: #232323;
+    transition: left 0.3s linear;
+    -moz-transition: left 0.3s linear;
+    -webkit-transition: left 0.3s linear;
+}
+
+@media all and (max-width: 768px) {
+    .lp-wrapper {
+        left: -14rem;
+    }
+
+    .body-content {
+        margin-left: 0rem;
+    }
+}
